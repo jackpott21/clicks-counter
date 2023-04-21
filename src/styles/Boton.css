@@ -1,0 +1,30 @@
+button {
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+    border-radius: 15px;
+margin: 5px;
+cursor: pointer;  
+    font-size: 2rem;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+   
+  }
+  
+  button:hover, .btn-3d:focus {
+    background-color: #0f7706;
+    
+  }
+  .boton-click{
+    background-color: #002ead;
+  }
+
+  .boton-reiniciar{
+    background-color: #5a01a7;
+  }
+  button:active {
+    background-color: #cf6a00;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+  }
